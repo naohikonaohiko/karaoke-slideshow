@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dc9d8bfa8451c445d616d77a8f8c8e2d",
+    "revision": "5f443188837a43ff1aa4be7ff96f4b85",
     "url": "/karaoke-slideshow/build/index.html"
   },
   {
