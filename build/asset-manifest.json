@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.d1b05096.chunk.css",
-    "main.js": "/static/js/main.8591cd08.chunk.js",
-    "main.js.map": "/static/js/main.8591cd08.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0f32dc67.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0f32dc67.js.map",
-    "static/js/2.d01c64fe.chunk.js": "/static/js/2.d01c64fe.chunk.js",
-    "static/js/2.d01c64fe.chunk.js.map": "/static/js/2.d01c64fe.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.6244a59b75ca02e9cf470d8522897735.js": "/precache-manifest.6244a59b75ca02e9cf470d8522897735.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.d01c64fe.chunk.js.LICENSE": "/static/js/2.d01c64fe.chunk.js.LICENSE",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "main.css": "/karaoke-slideshow/build/static/css/main.d1b05096.chunk.css",
+    "main.js": "/karaoke-slideshow/build/static/js/main.6e6c81a0.chunk.js",
+    "main.js.map": "/karaoke-slideshow/build/static/js/main.6e6c81a0.chunk.js.map",
+    "runtime-main.js": "/karaoke-slideshow/build/static/js/runtime-main.5f8f9f4d.js",
+    "runtime-main.js.map": "/karaoke-slideshow/build/static/js/runtime-main.5f8f9f4d.js.map",
+    "static/js/2.d01c64fe.chunk.js": "/karaoke-slideshow/build/static/js/2.d01c64fe.chunk.js",
+    "static/js/2.d01c64fe.chunk.js.map": "/karaoke-slideshow/build/static/js/2.d01c64fe.chunk.js.map",
+    "index.html": "/karaoke-slideshow/build/index.html",
+    "precache-manifest.6a5499f5b38ee1fcedab2e06425b08bc.js": "/karaoke-slideshow/build/precache-manifest.6a5499f5b38ee1fcedab2e06425b08bc.js",
+    "service-worker.js": "/karaoke-slideshow/build/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/karaoke-slideshow/build/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.d01c64fe.chunk.js.LICENSE": "/karaoke-slideshow/build/static/js/2.d01c64fe.chunk.js.LICENSE",
+    "static/media/logo.svg": "/karaoke-slideshow/build/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0f32dc67.js",
+    "static/js/runtime-main.5f8f9f4d.js",
     "static/js/2.d01c64fe.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.8591cd08.chunk.js"
+    "static/js/main.6e6c81a0.chunk.js"
   ]
 }
