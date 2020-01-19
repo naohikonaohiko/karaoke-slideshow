@@ -37,16 +37,7 @@
         
         background-image: url("./images/bg/1179632a16b324f2fc42fa5e602d3065_m_cut.jpg");
         background-repeat: no-repeat;
-        /*
-        background-image: url("./images/publicdomainq-0031369ury.jpg");
-        background-repeat: no-repeat;
-        background-size: 1280px 720px;
-        */
-        /*
-        background-image: url("./images/a06165913edf5b1c32f6c29a2a2b7a6a_m.jpg");
-        */
       }
-      
 
       .telop {
         font-size: 48px;
@@ -62,13 +53,12 @@
         background-clip: text;
         -webkit-text-fill-color: transparent;
         /* margin: 0 auto; */
-        /* �e���b�v��s��\�� */
-        z-index:-10;
+        z-index:-10; /* テロップ一行非表示 */
       }
   
       .line {
         position: relative;
-        /* �e���b�v�ʒu���� ����ʃT�C�Y�𑜓x���� */
+        /* 解像度1280x720決め打ち。 ToDo 要調整 */
         top: 0px;
         left:130px;
       }
@@ -84,15 +74,14 @@
         left: 0;
         top: 0;
         position: absolute;
-        /* �e���b�v��s��\�� */
-        z-index:-10;
+        z-index:-10; /* テロップ一行非表示 */
       }
     </style>  
     <!--
       karaoke-telop
     -->
   </head>
-  <body style="overflow:hidden;"> <!-- �X�N���[���o�[��\�� -->
+  <body style="overflow:hidden;"> <!-- disable scrollbar -->
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -111,9 +100,9 @@
           <!--
               <h1>Telop test <small>(Google Chrome only)</small></h1>
               <ol class="small">
-                <li>�i�K�v�ł���΁j Silverlight �v���O�C����L���ɂ���</li>
-                <li>Start �{�^�����N���b�N</li>
-                <li>�������Ȃ��i�v���C���[�̈ꎞ��~��V�[�N�͖��Ή��j</li>
+                <li>（必要であれば） Silverlight プラグインを有効にする</li>
+                <li>Start ボタンをクリック</li>
+                <li>何もしない（プレイヤーの一時停止やシークは未対応）</li>
               </ol>
           -->
               <div style="margin:0 0 10px; visibility: hidden;">
