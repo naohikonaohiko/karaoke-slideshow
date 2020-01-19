@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/karaoke-slideshow/build/precache-manifest.6a5499f5b38ee1fcedab2e06425b08bc.js"
+  "/karaoke-slideshow/build/precache-manifest.36ea788474809a40fe6c4fa7b47ebc23.js"
 );
 
 self.addEventListener('message', (event) => {
