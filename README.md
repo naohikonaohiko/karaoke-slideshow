@@ -30,11 +30,42 @@ F11 キーで全画面再生するとぴったり表示されます。
 ### run
 
 ```
-$ git clone <this repo>
+$ git clone https://github.com/naohikonaohiko/karaoke-slideshow.git
 $ cd karaoke-slideshow
+$ npm install
 $ npm start
 ```
+
 Open http://localhost:3000
+
+#### 注
+
+単に上記を実施すると音は出ません（スライドショーと文字の色は動きます）。
+
+最近の Chrome はユーザー操作なしの音自動再生をさせないためです。
+
+動作確認環境： Chrome 79
+
+#### 音を出したい場合
+
+案1
+
+本アプリ（ http://localhost:3000 ）を直接開くのではなく、別ページから本アプリへ遷移すると音が出る。
+
+
+案2
+
+Chrome を --autoplay-policy=no-user-gesture-required の起動引数を付与して起動する。
+
+Mac 例
+```
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --autoplay-policy=no-user-gesture-required
+```
+
+Windows 例
+```
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --autoplay-policy=no-user-gesture-required
+```
 
 ### custom
 
